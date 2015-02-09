@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'YAScrollSegmentControl', :exclusive => true do
+  pod "YAScrollSegmentControl", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "YAScrollSegmentControl", :path => "../"
+
+  
+end
