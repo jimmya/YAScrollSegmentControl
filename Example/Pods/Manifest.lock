@@ -1,0 +1,14 @@
+PODS:
+  - YAScrollSegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - YAScrollSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  YAScrollSegmentControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YAScrollSegmentControl: e414de83cf58a0c78601d15160a252b35ca2281c
+
+COCOAPODS: 0.35.0
