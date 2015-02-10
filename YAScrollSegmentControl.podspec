@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Beautiful and easy to use scrolling segment control."
   s.description      = <<-DESC
-                        Beautiful and easy to use scrolling segment control.
+                        A simple control for implementing a beautiful scrolling segment control. With adaptive gradient to tease the user to explore all the items in the list. Fully customizable either by code or using interface builder.
                        DESC
   s.homepage         = "https://github.com/jimmya/YAScrollSegmentControl"
   s.screenshots     = "https://raw.githubusercontent.com/jimmya/YAScrollSegmentControl/master/screen2.png"
