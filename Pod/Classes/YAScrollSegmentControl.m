@@ -26,10 +26,6 @@ static const CGFloat defaultGradientPercentage = 0.2;
 @property (nonatomic, strong) UIView *leftMask;
 @property (nonatomic, strong) UIView *rightMask;
 
-@property (nonatomic, strong) IBInspectable UIColor *buttonColor;
-@property (nonatomic, strong) IBInspectable UIColor *buttonHighlightColor;
-@property (nonatomic, strong) IBInspectable UIColor *buttonSelectedColor;
-
 @property (nonatomic, strong) IBInspectable UIImage *buttonBackgroundImage;
 @property (nonatomic, strong) IBInspectable UIImage *buttonHighlightedBackgroundImage;
 @property (nonatomic, strong) IBInspectable UIImage *buttonSelectedBackgroundImage;
