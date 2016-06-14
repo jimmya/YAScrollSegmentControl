@@ -233,7 +233,17 @@ static const CGFloat defaultGradientPercentage = 0.2;
     self.scrollView.contentSize = CGSizeMake(x, self.frame.size.height);
     
     if (x <= self.frame.size.width) {
-        self.scrollView.contentInset = UIEdgeInsetsMake(0, (self.frame.size.width - x) / 2, 0, 0);
+        CGFloat padding = (self.frame.size.width - x) / 2;
+        if (self.buttonAlignment == NSTextAlignmentRight) {
+            self.scrollView.contentInset = UIEdgeInsetsMake(0, padding * 2, 0, 0);
+        }
+        else if (self.buttonAlignment == NSTextAlignmentCenter || self.buttonAlignment == NSTextAlignmentJustified) {
+            self.scrollView.contentInset = UIEdgeInsetsMake(0, padding, 0, padding);
+        }
+        else {
+            // Either left or natural
+            self.scrollView.contentInset = UIEdgeInsetsMake(0, 0, 0, padding * 2);
+        }
     } else {
         self.scrollView.contentInset = UIEdgeInsetsZero;
     }

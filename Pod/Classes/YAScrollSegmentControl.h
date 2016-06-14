@@ -30,6 +30,7 @@ IB_DESIGNABLE
 @property (nonatomic, strong) IBInspectable UIColor *buttonColor;
 @property (nonatomic, strong) IBInspectable UIColor *buttonHighlightColor;
 @property (nonatomic, strong) IBInspectable UIColor *buttonSelectedColor;
+@property (nonatomic, assign) NSTextAlignment buttonAlignment;
 
 @property (nonatomic, assign) NSInteger selectedIndex;
 
